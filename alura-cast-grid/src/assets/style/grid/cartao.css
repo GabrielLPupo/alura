@@ -17,7 +17,11 @@
     grid-row: 1/4;
 }
 
-.secao-horizontal .cartao__titulo{
+.secao-horizontal .cartao__titulo {
     align-self: end;
 }
 
+.secao-vertical .cartao{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
